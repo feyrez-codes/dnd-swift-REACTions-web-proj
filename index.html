@@ -3,23 +3,9 @@
   <head>
     <link rel="icon" type="image/svg+xml" href="/src/assets/lootbag_1.webp" />
     <title>Fey's Bottomless Loot Box!</title>
-    <link rel="stylesheet" href="src/stylesheets/index.css">
   </head>
   <body>
-    <div id="index-main-container">
-      <div id="i-main-header"></div>
-      <div id="i-main-body"></div>
-      <div id="i-main-nav"></div>
-    </div>
-
-    <script type="text/babel">
-      import {createRoot} from 'react-dom/client';
-
-      const button = <button>hello</button>;
-      const container = document.getElementById('index-main-container');
-      
-      ReactDOM.createRoot(container).render('Hello World!');
-    </script>
-    <script type="module" src="/src/scripts/index-script.tsx"></script>
+    <div id="root" class="root"></div>
+    <script type="module" type="text/babel" src="/src/scripts/index-script.tsx"></script>
   </body>
 </html>
