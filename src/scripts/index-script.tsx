@@ -3,6 +3,7 @@ import { LinkHandling } from './index-header-links';
 import { NavPanelCreation } from './nav-panel';
 import { MainBodyPop } from './index-body-content';
 import '../stylesheets/globalstyling.css'
+import '../stylesheets/mainpage.css'
 
 const mainContainer = document.getElementById('root');
 

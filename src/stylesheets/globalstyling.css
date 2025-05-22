@@ -43,15 +43,6 @@ html, body, #root, .index-main-container{
   display: flex;
   flex-direction: row;
 }
-.eberron-map
-{
-  width: 500px
-}
-.map-label{
-  width: 200px;
-  margin: 0 0 -80px -350px;
-  rotate: 30deg;
-}
  .i-main-nav{
   width: 140px;
   height: 100%;
